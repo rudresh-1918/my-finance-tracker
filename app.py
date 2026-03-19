@@ -92,8 +92,8 @@ else:
         st.rerun()
 
     st.sidebar.subheader("🎯 Financial Goals")
-    monthly_income = st.sidebar.number_input("Monthly Income (Rs)", min_value=0.0, value=500.0)
-    savings_target = st.sidebar.number_input("Monthly Savings Target (Rs)", min_value=0.0, value=150.0)
+    monthly_income = st.sidebar.number_input("Monthly Income (Rs)", min_value=0.0, value=0.0)
+    savings_target = st.sidebar.number_input("Monthly Savings Target (Rs)", min_value=0.0, value=0.0)
 
     st.sidebar.subheader("➕ Add Transaction")
     with st.sidebar.form("transaction_form", clear_on_submit=True):
